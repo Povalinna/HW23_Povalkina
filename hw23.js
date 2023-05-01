@@ -1,7 +1,7 @@
 function getImage() {
     const random = Math.floor(Math.random() * 9) + 1;  
     console.log(random);
-    return '<img src="/IMG/' + random + '.jpg">';
+    return '<img src="/img/' + random + '.jpg">';
    
 }
  
